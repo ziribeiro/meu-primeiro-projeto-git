@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    margin-bottom: 144px;
+}
+
+header {
+    margin: 44px 0 144px 76px;
+    
+}
+
+a {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #989D9C;
+    margin-right: 23px;
+}
+
+button:hover {
+    opacity: .8;
+}
+
+button:active {
+    opacity: .5;
+}
+
+.button-header {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    background: #665AE1;
+    border-radius: 20.5px;
+    border: none;
+    width: 130px;
+    height: 41px;
+    cursor: pointer;
+}
+
+.div-left {
+    display: inline-block;
+}
+
+img {
+    width: 568px;
+    height: 500px;
+}
+
+.div-right {
+    display: inline-block;  
+    margin-left: 86px;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 122px;
+    color: #515151;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 71px;
+    color: #515151;
+
+}
+
+p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #848484;
+    width: 515px;
+    margin-top: 32px;
+    margin-bottom: 40px;
+}
+
+.button-explore {
+    background: #ADFF00;
+    border-radius: 33px;
+    border: none;
+    width: 239px;
+    height: 64px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    color: #000000;
+
+}
+
+@media screen and (max-width:700px) {
+    header {
+        display: none;
+    }
+    p {
+        display: none;
+    }
+  
+    .div-right {
+        display: block;
+        width: 263px;
+        height: 50%;
+        margin-left: auto;
+        margin-right: auto; 
+            
+    }
+    h1 {
+        font-size: 50px;
+    }
+    h2 {
+        font-size: 30px;
+        line-height: 37px;
+        margin-bottom: 17px;
+    }
+    .div-left {
+        width: 100%;
+        height: 50%;
+        padding: 100px 24px 24px 24px;
+    }
+    img {
+        display: block;
+        width: 354px;
+        height: 317px;
+        margin-left: auto;
+        margin-right: auto; 
+    
+    }
+
+}
